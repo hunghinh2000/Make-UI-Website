@@ -1,0 +1,93 @@
+div.card {
+    border: 1px inset black;
+    width: 25%; /*For readable, can delete later to edit */
+    transition: 0.5s;
+}
+div.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 5px #aaa;
+}
+a.card-link {
+    text-decoration: none;
+    color: initial;
+}
+.flex-box {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-items {
+    flex: 1 1 auto;
+    padding: 5px;
+}
+div.events-near-card {
+    padding: 10px;
+}
+span.event-time-display, div.see-all-description {
+    color: #30919e;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card-title span.event-title-display {
+    font-weight: bold;
+    font-size: 20px
+}
+.card-location img.event-location-icon-display {
+    width: 20px;
+    height: 20px;
+}
+span.event-location-display, div.event-attendees-display {
+    font-size: 15px;
+    opacity: 0.7;
+}
+.card-sub-info.flex-box {
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between
+}
+.card-sub-info div.card-attendees {
+    padding: 10px 0;
+}
+.card-sub-info a.button-link {
+    text-decoration: none;
+    color: initial;
+}
+.button-link div.card-button {
+    border: 1px solid rgb(47, 158, 192);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;   
+}
+.button-link div.card-button:hover {
+    color: white;
+    background: rgb(47, 158, 192);
+}
+.events-card-list.flex-row {
+    justify-content: center;
+}
+.events-card-list div.card-1,div.card-2,div.card-3 {
+    margin: 20px 15px;
+}
+.events-near-description-title.flex-row {
+    justify-content: space-between;
+}
+
+.events-near-description-title div.description-title-content {
+    font-weight: bold;
+    font-size: 20px;
+}
+a.see-all-link {
+    text-decoration: none;
+    color: #30919e;
+}
+.see-all-description:visited a.see-all-link {
+    color: blue;
+    background: black;
+}
+.see-all-description a.see-all-link:active {
+    border: 1px dotted black;
+}
+
