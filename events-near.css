@@ -1,6 +1,5 @@
 div.card {
-    border: 1px inset black;
-    width: 25%; /*For readable, can delete later to edit */
+    border: 1px inset black; /*For readable, can delete later to edit */
     transition: 0.5s;
 }
 div.card:hover {
@@ -21,7 +20,6 @@ a.card-link {
 }
 .flex-items {
     flex: 1 1 auto;
-    padding: 5px;
 }
 div.events-near-card {
     padding: 10px;
@@ -39,7 +37,7 @@ span.event-time-display, div.see-all-description {
     width: 20px;
     height: 20px;
 }
-span.event-location-display, div.event-attendees-display {
+span.event-location-display, div.event-attendees-display, div.group-card-member {
     font-size: 15px;
     opacity: 0.7;
 }
@@ -68,14 +66,14 @@ span.event-location-display, div.event-attendees-display {
 .events-card-list.flex-row {
     justify-content: flex-start;
 }
-.events-card-list div.card-1,div.card-2,div.card-3 {
+.events-card-list div.card {
     margin: 20px 15px;
 }
-.events-near-description-title.flex-row {
+.events-near-description-title.flex-row, .group-near-description-title.flex-row {
     justify-content: space-between;
 }
 
-.events-near-description-title div.description-title-content {
+div.description-title-content {
     font-weight: bold;
     font-size: 20px;
 }
