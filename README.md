@@ -1,1 +1,1 @@
-Tks for visitting. Pleasa visit <a href="https://coders-x.com">CodersX</a> for learning interesting course.
+Tks for visitting. Please visit <a href="https://coders-x.com">CodersX</a> for learning interesting course.
